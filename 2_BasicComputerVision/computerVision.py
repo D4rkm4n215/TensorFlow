@@ -15,7 +15,7 @@ model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])
 
-model.fit(training_images, training_labels, epochs=15)
+model.fit(training_images, training_labels, epochs=5)
 
 model.evaluate(test_images, test_labels)
 
