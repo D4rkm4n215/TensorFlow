@@ -6,8 +6,10 @@ from tensorflow.keras.optimizers import RMSprop
 import matplotlib.pyplot as plt
 from pathlib import Path
 #https://colab.research.google.com/github/lmoroney/mlday-tokyo/blob/master/Lab5-Using-Convolutions-With-Complex-Images.ipynb#scrollTo=u3lh47YWWL3x
+
+
 # Set the directories for training and validation data
-base_dir = Path("/3_ConvolutionalNeuralNetwork").resolve()
+base_dir = Path().resolve()
 train_dir = base_dir / "horse-or-human"
 validation_dir = base_dir / "validation-horse-or-human"
 
